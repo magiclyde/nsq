@@ -1,3 +1,4 @@
+.idea
 .godeps
 vendor
 .cover/
@@ -48,3 +49,6 @@ profile
 
 # vim stuff
 *.sw[op]
+
+build/*
+!build/.gitkeep
