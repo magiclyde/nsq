@@ -25,6 +25,8 @@ $(BLDDIR)/%:
 	@mkdir -p $(dir $@)
 	go build ${BLDFLAGS} -o $@ ./apps/$*
 
+# 静态模式，https://seisman.github.io/how-to-write-makefile/rules.html#id8
+# <targets ...> : <target-pattern> : <prereq-patterns ...>
 $(APPS): %: $(BLDDIR)/%
 
 clean:
