@@ -1,5 +1,6 @@
 #!/bin/bash
-# start a little NSQ cluster with 2 nsqlookupd hosts, 5 nsqd nodes, and an instance of nsqadmin
+# note: start a little NSQ cluster with 2 nsqlookupd hosts, 5 nsqd nodes, and an instance of nsqadmin
+# refer: https://anthonysterling.com/posts/quick-nsq-cluster.html
 
 BASEDIR=.cluster
 NSQLOOKUPD_LOG=$BASEDIR/log/nsqlookupd.log
