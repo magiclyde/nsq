@@ -43,4 +43,3 @@ $BLDDIR/nsqadmin \
   -lookupd-http-address="127.0.0.1:4112" >>"$NSQADMIN_LOG" 2>&1 &
 
 netstat -nlpt | grep nsq | sort
-
